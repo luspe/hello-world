@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no, minimal-ui">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="theme-color" content="#2196f3">
+    <title>Mean, Median & Mode</title>
+    <link rel="stylesheet" href="lib/framework7/css/framework7.material.min.css">
+    <link rel="stylesheet" href="lib/framework7/css/framework7.material.colors.min.css">
+    </head>
+
+    <body class='theme-green'>
+        <!-- Views --> 
+        <div class="views">
+            <!-- Your main view, should have "view-main" class -->
+            <div class="view view-main">
+                <!-- Pages container, because we use fixed navbar and toolbar, it has additional appropriate classes-->
+                <div class="pages navbar-fixed toolbar-fixed">
+                    <!-- Page, "data-page" contains page name -->
+                    <div data-page="index" class="page">
+
+                        <!-- Top Navbar. In Material theme it should be inside of the page-->
+                        <div class="navbar">
+                            <div class="navbar-inner">
+                            <img src="icon.png" heigth="100" width="100">
+
+                                 <I><div class="center">Joshua Orlanda</div></I>
+                                
+                                
+                               
+                            </div>
+                        </div>
+
+                        <!-- Bottom Toolbar. In Material theme it should be inside of the page-->
+                        <div class="toolbar">
+                            <div class="toolbar-inner">
+                                <!-- Toolbar links -->
+                            </div>
+                        </div>
+
+                        <!-- Scrollable page content -->
+                        <div class="page-content">
+                            <div class='content-block'>
+                                <div class="list-block">
+                                    <ul>
+                                        <!-- Text inputs -->
+                                        <li>
+                                            <div class="item-content">
+                                                <div class="item-inner">
+                                                    <b><I><div class="item-title label">Enter A Number</div><I></b><br>
+                                                    <div class="item-input">
+                                                        <input id='input_ages' type="text" placeholder="Insert Number Here!">
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <div class="item-content">
+                                                <button id='btn_calc' class='button button-fill color-green'>Calculate!!</button>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </div>
+
+                                <font size=5 color=green><b><div id='statSolutions'>Answer</div>
+                                <div id='statSolutions'></div>
+                                <div id='statSolutions'></div></b></font>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+
+    <script type="text/javascript" src="js/jquery.js"></script>
+    <script type="text/javascript" src="lib/framework7/js/framework7.min.js"></script>
+    <script type="text/javascript" src="js/process.js"></script>
+</html> 
